@@ -20,10 +20,6 @@
     text-align: center;
 }
 
-.number-conversion{
-    background: darkgreen;
-}
-
 @media only screen and (max-width: 1000px) {
     .wrapper {
       display: grid;
