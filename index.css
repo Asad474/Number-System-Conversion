@@ -1,0 +1,32 @@
+.list-of-conversion{
+    padding-left: 40px;
+}
+
+.number-system-content{
+    padding-left: 40px;
+}
+
+.content-table{
+    margin-right: 50px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.err-msg{
+    text-align: center;
+}
+
+.number-conversion{
+    background: darkgreen;
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper {
+      display: grid;
+      gap: 5%;
+    }
+}
