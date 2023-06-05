@@ -33,4 +33,10 @@
         flex-direction: column;
         gap: 10px;
     }
+
+    .input-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
 }
