@@ -12,31 +12,32 @@
 
 .wrapper{
     display: flex;
-    justify-content: space-between;
-    padding: 20px 30px;
+    flex-direction: column;
+    gap: 10px;
+    width: 75%;
+    margin-left: 10%;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .err-msg{
     text-align: center;
 }
 
-/* @media only screen and (max-width: 1000px) {
-    .wrapper {
-      display: grid;
-      gap: 5%;
-    }
-} */
-
 @media(max-width : 600px){
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+    .number-system-content{
+        margin-left: 5%;
+    }
+
+    .number-table{
+        margin-left: 5%;
     }
 
     .input-wrapper{
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
+        margin-top: 10px;
     }
 }
